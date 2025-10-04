@@ -10,25 +10,25 @@
    
 1. **Access the script on your VPS**
 
-   ```bash <(wget -qO- https://raw.githubusercontent.com/OfficialNodezilla101/virtualpc/main/virtualpc.sh)```
+   ```
+   bash <(wget -qO- https://raw.githubusercontent.com/OfficialNodezilla101/virtualpc/main/virtualpc.sh)
+   ```
    , then:
 
    You’ll see the menu:
-
-   `
+   
    1) Fresh Install
    2) Reinstall / Fix Crash
    3) Uninstall / Undo Everything
    4) Exit
-   `
 
-2. **Choose an option**
+3. **Choose an option**
 
    * Pick **1** for first-time setup (creates a new user, installs XFCE + XRDP + Chrome).
    * If login crashes later → run **2 (Reinstall)** and it will purge/reinstall everything.
    * To wipe all changes → run **3 (Uninstall)**.
 
-3. **Connect with RDP**
+4. **Connect with RDP**
 
    * On your PC (Windows: Remote Desktop, macOS: Microsoft Remote Desktop), connect to:
 
